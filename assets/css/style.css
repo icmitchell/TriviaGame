@@ -1,0 +1,84 @@
+body {
+    background-image: url("../images/books-3071983_1280.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.header {
+	font-size: 500%;
+	text-align: center;
+	color: #d16e2a;
+}
+
+#category {
+	width: 65%;
+    margin-left: 17%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 60px;
+    line-height: 55px;
+    color: #286294;
+}
+
+#result{
+	text-align: center;
+    font-size: 25px;
+    color: #8a6d3b;
+}
+
+.correctAnswer{
+	text-align: center;
+    font-size: 25px;
+    color: #636312ed;
+
+}	
+
+.timer{
+	text-align: center;
+	color: #999;
+	size: 40px;
+}
+
+#timer{
+	all: inherit;
+}
+
+.content{
+	text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#question{
+	color: #4c96b7f2;
+}
+
+#allAnswers{
+
+	color: #ddd;
+}
+.answers{
+	color: black;
+	line-height: 40px;
+}
+.win {
+	color: #008000;
+}
+.loss {
+	color: #e11313;
+}
+.winner{
+	background: #008000b8;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #ffffff;
+}
+.loser{
+	background: #e11313b8;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #ffffff;
+}
